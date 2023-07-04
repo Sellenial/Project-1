@@ -16,3 +16,13 @@ button2.addEventListener('click', () => {
 button3.addEventListener('click', () => {
   displayedImage.src = 'https://cdn.discordapp.com/attachments/555738743953162240/1124914217456250963/176.jpg';
 });
+
+const opacitySlider = document.getElementById('opacitySlider');
+const images = document.querySelectorAll('img');
+
+opacitySlider.addEventListener('input', function() {
+  images.forEach(function(image) {
+    const opacityValue = opacitySlider.value / 100;
+    image.style.opacity = opacityValue;
+  });
+});
