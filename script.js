@@ -12,7 +12,7 @@ button1.addEventListener('click', () => {
 button2.addEventListener('click', () => {
   displayedImage.src = 'https://cdn.discordapp.com/attachments/854544686789165076/1125309497527779429/f45726b8e93bd5772146b8ebedea56e0.png';
 });
-
+// AAAAAAAAAAAAAAAAAA I DON"T KNOW WHAT I"M DOING
 button3.addEventListener('click', () => {
   displayedImage.src = 'https://cdn.discordapp.com/attachments/555738743953162240/1124914217456250963/176.jpg';
 });
